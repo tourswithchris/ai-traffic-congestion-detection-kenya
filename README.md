@@ -2,6 +2,8 @@
 
 ## Government Use Case (Kenya Smart Camera Rollout – 2026)
 
+Maintained by Christopher Ndungu – Nairobi AI Traffic Analytics Prototype
+
 This prototype demonstrates how AI can analyze traffic camera images to automatically detect congestion levels in real time.
 
 With the Government of Kenya rolling out smart traffic cameras across major cities, AI systems like this can help:
