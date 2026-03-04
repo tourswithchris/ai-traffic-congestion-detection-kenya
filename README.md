@@ -1,52 +1,32 @@
-# Project Summary — AI Traffic Congestion Detection (University Way, Nairobi)
+# AI Traffic Congestion Detection for Nairobi Smart Camera Systems
 
-## Overview
+## Government Use Case (Kenya Smart Camera Rollout – 2026)
 
-This project investigates how Artificial Intelligence can help improve road safety and traffic management in Nairobi. We developed a simple AI model that can automatically detect whether a road scene shows High Traffic or Low Traffic, using real images captured from University Way.
+This prototype demonstrates how AI can analyze traffic camera images to automatically detect congestion levels in real time.
 
-The goal is to demonstrate how AI can assist traffic authorities in making quicker and smarter safety decisions.
+With the Government of Kenya rolling out smart traffic cameras across major cities, AI systems like this can help:
 
-## Objectives
+• Detect congestion automatically from camera feeds  
+• Trigger alerts for traffic control centers  
+• Improve emergency response times  
+• Provide analytics for road planning  
+• Support smart-city traffic management
 
-Use AI to automatically classify road congestion levels
-Support faster response to traffic build-up and incidents
-Show how technology can contribute to safer and smarter cities in Kenya
+The model can be integrated into traffic camera infrastructure to provide real-time congestion monitoring.
 
-## AI Model Used
+## Maintainer
 
-We built and trained a Convolutional Neural Network (CNN) using 100 labeled traffic images:
+Christopher Ndungu  
+AI Systems & Data Projects  
+Nairobi, Kenya
 
-Category	Images
-Low Traffic	54
-High Traffic	46
+This repository is a prototype exploring AI-based traffic analytics for smart city infrastructure.
 
-The model learns visual patterns such as:
-- Number of vehicles
-- How close vehicles are to each other
-- Road visibility and flow
+## Original Research
 
-## Results
+This project builds upon initial academic work by:
 
-- 100% accuracy on unseen test images
-- Correctly predicted every congestion level in the evaluation set
-- Proved capable of real-time classification using uploaded images
+Ilham Mohamed  
+Halima Mohamed
 
-This shows that AI can reliably detect congestion using just CCTV camera images.
-
-## Real-World Impact
-
-If applied across Nairobi’s road system, this model could:
-
-- Reduce congestion and associated accidents
-- Improve emergency response times
-- Help plan better road infrastructure
-- Support Kenya’s smart city development goals
-
-## Team Members
-
-- Ilham Mohamed
-- Halima Mohamed
-
-## Conclusion
-
-This project successfully demonstrates that even a small AI system can play a meaningful role in road safety improvement. With more data and wider deployment, similar technology could help build a safer, more efficient transportation system for Nairobi and beyond.
+The original research explored CNN-based congestion detection using images from University Way.
