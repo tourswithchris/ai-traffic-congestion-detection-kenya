@@ -14,6 +14,16 @@ With the Government of Kenya rolling out smart traffic cameras across major citi
 
 The model can be integrated into traffic camera infrastructure to provide real-time congestion monitoring.
 
+Traffic Camera
+      ↓
+Image Capture
+      ↓
+CNN Model
+      ↓
+Congestion Detection
+      ↓
+Traffic Dashboard
+
 ## Maintainer
 
 Christopher Ndungu  
@@ -30,3 +40,4 @@ Ilham Mohamed
 Halima Mohamed
 
 The original research explored CNN-based congestion detection using images from University Way.
+
