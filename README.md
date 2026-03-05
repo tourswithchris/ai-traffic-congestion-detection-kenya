@@ -1,6 +1,6 @@
 # Nairobi Smart Traffic AI (Prototype)
 
-![ai-traffic-congestion-detection-kenya/public/demo.jpg)
+![AI Traffic Congestion Detection Demo](./public/demo.jpg)
 
 **Prototype Pilot: University Way, Nairobi**
 
@@ -87,6 +87,7 @@ flowchart LR
   D --> E["Alerts & analytics dashboard (future)"]
 
 ---
+
 
 
 
