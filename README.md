@@ -1,45 +1,32 @@
-# AI Traffic Congestion Detection for Nairobi Smart Camera Systems
+# Nairobi Smart Traffic AI (Prototype)
+AI prototype that detects traffic congestion levels from roadway camera images using a CNN classifier.
 
-## Government Use Case (Kenya Smart Camera Rollout – 2026)
+**Use case:** congestion monitoring, incident awareness, and city traffic analytics.  
+**Status:** prototype / proof-of-work (non-production).
 
-Maintained by Christopher Ndungu – Nairobi AI Traffic Analytics Prototype
+---
 
-This prototype demonstrates how AI can analyze traffic camera images to automatically detect congestion levels in real time.
+## What this repo is (and isn’t)
 
-With the Government of Kenya rolling out smart traffic cameras across major cities, AI systems like this can help:
+### ✅ Included (public proof-of-work)
+- Prototype CNN-based congestion classifier (image → congestion level)
+- Demo workflow (notebook) using sample images
+- Pilot brief (1-page PDF) for stakeholders
+- Results & benchmark artifacts (screenshots/tables)
+- High-level architecture (no deployment details)
 
-• Detect congestion automatically from camera feeds  
-• Trigger alerts for traffic control centers  
-• Improve emergency response times  
-• Provide analytics for road planning  
-• Support smart-city traffic management
+### ❌ Not included (kept private)
+- Camera ingest (RTSP/streaming), production API, infra & deployment
+- Full training pipeline + operational configs
+- Any keys/secrets or environment configuration
 
-The model can be integrated into traffic camera infrastructure to provide real-time congestion monitoring.
+---
 
-Traffic Camera
-      ↓
-Image Capture
-      ↓
-CNN Model
-      ↓
-Congestion Detection
-      ↓
-Traffic Dashboard
+## High-level Architecture (Prototype)
 
-## Maintainer
-
-Christopher Ndungu  
-AI Systems & Data Projects  
-Nairobi, Kenya
-
-This repository is a prototype exploring AI-based traffic analytics for smart city infrastructure.
-
-## Original Research
-
-This project builds upon initial academic work by:
-
-Ilham Mohamed  
-Halima Mohamed
-
-The original research explored CNN-based congestion detection using images from University Way.
-
+```mermaid
+flowchart LR
+  A[Traffic Camera / Image Source] --> B[Frame Sampling]
+  B --> C[CNN Inference]
+  C --> D[Congestion Level: Low / Medium / High]
+  D --> E[Alerts + Analytics Dashboard (future)]
