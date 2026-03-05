@@ -26,7 +26,8 @@ AI prototype that detects traffic congestion levels from roadway camera images u
 
 ```mermaid
 flowchart LR
-  A[Traffic Camera / Image Source] --> B[Frame Sampling]
-  B --> C[CNN Inference]
-  C --> D[Congestion Level: Low / Medium / High]
-  D --> E[Alerts + Analytics Dashboard (future)]
+  A["Traffic camera / image source"] --> B["Frame sampling"]
+  B --> C["CNN inference"]
+  C --> D["Congestion level: Low / Medium / High"]
+  D --> E["Alerts & analytics dashboard (future)"]
+
