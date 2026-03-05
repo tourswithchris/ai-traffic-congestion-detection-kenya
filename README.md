@@ -1,5 +1,7 @@
 # Nairobi Smart Traffic AI (Prototype)
 
+![ai-traffic-congestion-detection-kenya/public/demo.jpg)
+
 **Prototype Pilot: University Way, Nairobi**
 
 AI-powered traffic intelligence system designed to analyze city traffic camera images and detect congestion levels and incidents in real time.
@@ -85,5 +87,6 @@ flowchart LR
   D --> E["Alerts & analytics dashboard (future)"]
 
 ---
+
 
 
